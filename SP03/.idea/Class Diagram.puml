@@ -1,27 +1,65 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+class Main
+class MainMenu
+class Startmenu
+class TextUI
+class User
+class FileIO
+class ExceptionCatcher
+abstract class Media implements IMedia
+class Movie extends Media
+class Series extends Media
+class SearchFunction
+class MainMenu
+class Streaming
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
+Main *-- Streaming
+Streaming *-- MainMenu
+MainMenu *-- Startmenu
+MainMenu *--TextUI
+MainMenu *-- ExceptionCatcher
+MainMenu *-- FileIO
+MainMenu *-- User
+MainMenu *-- IMedia
+MainMenu *-- SearchFunction
+User *-- FileIO
 
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
+Main : +psvm()
+Main : +Streaming streaming
 
-class ArrayList {
-Object[] elementData
-size()
-}
+MainMenu : + User currentUser
+Streaming : + void runStreaming()
 
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
-}
+
+Startmenu : + User currentUser
+Startmenu : + boolean welcome()
+Startmenu : + User login()
+Startmenu : + User signUp()
+Startmenu : + void getRegisteredUsers()
+
+User : + Arraylist<String> showsSeen
+User : + Arraylist<String> favouriteShows
+User : - String username
+User : - String password
+User : + HashMap putInLoginfo()
+
+
+IMedia : + String toString()
+IMedia : + void play()
+IMedia : + String toString()
+
+
+Media : -String name
+Media : -int year
+Media : -String[] genre
+Media : -int rating
+
+Series : - int #OfSeasons
+Series : + String seasonsAndEpisodes()
+
+
+
 
 @enduml
