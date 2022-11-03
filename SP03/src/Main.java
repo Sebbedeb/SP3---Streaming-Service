@@ -8,6 +8,10 @@ public class Main
         FileIO file = new FileIO();
 
         System.out.println(file.readMovieData());
+        System.out.println();
+        System.out.println(file.readSeriesData());
+        System.out.println();
+        System.out.println(file.readUserData());
 
     }
 }
