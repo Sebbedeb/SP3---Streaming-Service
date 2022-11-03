@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Setup {
+
+    /*
     public static void signUp() {
         String input = "temp";
         String username;
@@ -23,4 +25,6 @@ public class Setup {
 
         IDandPassword.addUser(newUser);
     }
+
+     */
 }

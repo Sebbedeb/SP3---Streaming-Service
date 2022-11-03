@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 public class TextUI
 {
+
+    /*
+}
 <<<<<<< HEAD
     public static void loginOrSignUp() {
         System.out.println("Do you want to log in as an existing user, or do you want to sign up as a new User?");
@@ -66,4 +69,6 @@ public class TextUI
         return choice;
 >>>>>>> Media
     }
+
+     */
 }

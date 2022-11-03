@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 public class StartMenu
 {
+
+    /*
     static ArrayList<String> registeredUsers = new ArrayList<>();
     static void setup() {
         TextUI.welcome();
@@ -21,11 +23,15 @@ public class StartMenu
         }
         else{
             ExceptionCatcher.wrongInput();
-        }*/
+        }
     }
 
     static ArrayList<String> getRegisteredUsers(){
         return registeredUsers;
     }
+
+     */
+
+
 
 }
