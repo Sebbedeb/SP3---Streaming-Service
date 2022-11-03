@@ -13,15 +13,15 @@ public class StartMenu
     private static void loginScreen() {
         TextUI.loginOrSignUp();
         FileIO.readUserData();
-        if(input == 1 || input.equals "login"){
+        if(input == 1 || input.equals("login")){
             Setup.login();
         }
-        else if(input == 2 || input.equals "sign up"){
+        else if(input == 2 || input.equals("sign up")){
             Setup.signUp();
         }
         else{
             ExceptionCatcher.wrongInput();
-        }*/
+        }
     }
 
     static ArrayList<String> getRegisteredUsers(){
