@@ -9,6 +9,6 @@ public class IDandPassword {
     }
     public static void addUser(User user){
         IDandPassword.getListOfUsers();
-        listOfUsers.put(user.getUsername , user.getPassword);
+        listOfUsers.put(user.getUsername(), user.getPassword());
     }
 }
