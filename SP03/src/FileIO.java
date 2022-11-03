@@ -48,23 +48,46 @@ public class FileIO
     }
 
 
-       /*
-        public static void writeGameData(ArrayList<Player> players)
-        {
-            try {
-                FileWriter writer = new FileWriter("Data/gamedata.csv");
-                writer.write( "name, amount\n");
 
-                for (Player p : players)
-                {
-                    writer.write(p.getName() + "," + p.getBalance()+"\n");
-                }
-                writer.close();
-            } catch (IOException e) {
-                System.out.println(e + "You fucked up mate");
+    public ArrayList<String> readUserData()
+    {
+        File file = new File("Data/userData.txt");
+        ArrayList<String> data = new ArrayList<>();
+        try {
+            Scanner input = new Scanner(file);
+
+            while (input.hasNextLine())
+            {
+                data.add(input.nextLine());
             }
         }
+        catch (FileNotFoundException e)
+        {
+            data = null;
+        }
+        return data;
+    }
 
-        */
+    public static void writeUserData()
+    {
+            try
+            {
+                Scanner input = new Scanner(System.in);
+                FileWriter writer = new FileWriter("Data/userData.txt");
+                System.out.println("Please write your name:");
+                writer.write(input.nextLine() + ", ");
+                System.out.println("Please write yout new password");
+                writer.write(input.nextLine() + ", ");
+                System.out.println("Thank you.");
+                writer.close();
+
+            }
+            catch (IOException e)
+            {
+                System.out.println(e + "You fucked up mate");
+            }
+    }
+
+
 
 }
