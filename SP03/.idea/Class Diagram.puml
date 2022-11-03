@@ -17,22 +17,25 @@ class MainMenu
 class Streaming
 class Setup
 
-Main *-- Streaming
-Streaming *-- Setup
-Streaming *-- MainMenu
-MainMenu *-- Startmenu
-MainMenu *--TextUI
-MainMenu *-- ExceptionHandler
-MainMenu *-- FileIO
-MainMenu *-- User
-MainMenu *-- IMedia
-MainMenu *-- SearchFunction
-User *-- FileIO
-SearchFunction *-- TextUI
-Startmenu *-- TextUI
+Main *--- Streaming
+Startmenu *--- Setup
+Streaming *--- MainMenu
+MainMenu *--- Startmenu
+MainMenu *---TextUI
+MainMenu *--- ExceptionHandler
+MainMenu *--- FileIO
+MainMenu *--- User
+MainMenu *--- IMedia
+MainMenu *--- SearchFunction
+User *--- FileIO
+SearchFunction *--- TextUI
+Startmenu *--- TextUI
+ExceptionHandler *--- TextUI
+Setup *--- FileIO
 
 Main : +psvm()
 Main : +Streaming streaming
+
 MainMenu : + User currentUser
 MainMenu : + setup()
 MainMenu : + selection()
@@ -49,6 +52,11 @@ Startmenu : + User login()
 Startmenu : + User signUp()
 Startmenu : + void getRegisteredUsers()
 
+FileIO : + Scanner scanner
+FileIO : + ArrayList<String> readData()
+FileIO : + ArrayList<String> writeData()
+
+
 User : + Arraylist<String> showsSeen
 User : + Arraylist<String> favouriteShows
 User : - String username
@@ -59,8 +67,11 @@ User : + HashMap putInLoginfo()
 IMedia : + String toString()
 IMedia : + void play()
 IMedia : + String toString()
+
+TextUI : + Scanner scanner
 TextUI : + //print
 
+ExceptionHandler : + diverse fejl lol
 
 Media : -String name
 Media : -int year
@@ -69,8 +80,6 @@ Media : -int rating
 
 Series : - int #OfSeasons
 Series : + String seasonsAndEpisodes()
-
-
 
 
 @enduml
