@@ -30,7 +30,7 @@ public class FileIO
 
     public ArrayList<String> readSeriesData()
     {
-        File file = new File("Data/seriesList");
+        File file = new File("Data/seriesList.txt");
         ArrayList<String> data = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
@@ -73,11 +73,11 @@ public class FileIO
             try
             {
                 Scanner input = new Scanner(System.in);
-                FileWriter writer = new FileWriter("Data/userData.txt");
+                FileWriter writer = new FileWriter("Data/userData.txt", true);
                 System.out.println("Please write your name:");
                 writer.write(input.nextLine() + ", ");
                 System.out.println("Please write yout new password");
-                writer.write(input.nextLine() + ", ");
+                writer.write(input.nextLine() + ", \n");
                 System.out.println("Thank you.");
                 writer.close();
 
