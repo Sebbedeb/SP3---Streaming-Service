@@ -76,7 +76,7 @@ public class FileIO
                 FileWriter writer = new FileWriter("Data/userData.txt", true);
                 System.out.println("Please write your name:");
                 writer.write(input.nextLine() + ", ");
-                System.out.println("Please write yout new password");
+                System.out.println("Please write your new password");
                 writer.write(input.nextLine() + ", \n");
                 System.out.println("Thank you.");
                 writer.close();
