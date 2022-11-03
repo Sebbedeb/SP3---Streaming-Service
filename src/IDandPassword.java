@@ -1,6 +1,7 @@
 import java.util.HashMap;
 
-public class IDandPassword {
+public class IDandPassword
+{
     private static HashMap<String, String> listOfUsers = new HashMap<String, String>();
 
 

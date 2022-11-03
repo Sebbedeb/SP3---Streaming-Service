@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea8bbf4-5479-4159-86df-711b8c338e2f" name="Changes" comment="" />
+    <list default="true" id="6dbf8904-0f1a-4c42-b6f3-fa102cf30cc7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/ExceptionCatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/FileIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SP03/FileIO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/IDandPassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/IMedia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/MainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/Media.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/SearchFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/Series.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/Setup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/StartMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/Streaming.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP03/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SP03/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IDandPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IDandPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StartMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TextUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +35,41 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Setup" />
+                    <option name="lastUsedInstant" value="1667478880" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1667478879" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -19,7 +77,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2GzMFTBPiQHjbIBzSay73xywtf9" />
+  <component name="ProjectId" id="2GzMsWYxXSUXHmpKG1xbsqGgIwS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,19 +85,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Oscar/Documents/GitHub/SP3---Streaming-Service/SP03"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3ea8bbf4-5479-4159-86df-711b8c338e2f" name="Changes" comment="" />
-      <created>1667386854560</created>
+      <changelist id="6dbf8904-0f1a-4c42-b6f3-fa102cf30cc7" name="Changes" comment="" />
+      <created>1667387171148</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667386854560</updated>
+      <updated>1667387171148</updated>
     </task>
     <servers />
   </component>
