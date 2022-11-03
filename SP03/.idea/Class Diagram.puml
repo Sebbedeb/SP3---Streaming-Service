@@ -64,7 +64,6 @@ User : - String password
 User : + HashMap putInLoginfo()
 
 
-IMedia : + String toString()
 IMedia : + void play()
 IMedia : + String toString()
 
@@ -76,10 +75,18 @@ ExceptionHandler : + diverse fejl lol
 Media : -String name
 Media : -int year
 Media : -String[] genre
-Media : -int rating
+Media : -float rating
+Media : + void play();
+Media : + String toString();
+Media : + String getName();
+Media : + int getYear();
+Media : + String[] getGenre();
+Media : + float getRating();
 
-Series : - int #OfSeasons
-Series : + String seasonsAndEpisodes()
+Movie : + String toString();
+
+Series : - int seasons
+Series : + String toString();
 
 
 @enduml
