@@ -59,11 +59,21 @@ FileIO : + ArrayList<String> readSeriesData()
 FileIO : + ArrayList<String> readMovieData()
 
 
-User : + Arraylist<String> showsSeen
-User : + Arraylist<String> favouriteShows
+User : - Arraylist<String> showsSeen
+User : - Arraylist<String> favouriteShows
 User : - String username
 User : - String password
-User : + HashMap putInLoginfo()
+User : + User(String username, String password)
+User : + User(String username, String password, ArrayList<String> showsSeen, ArrayList<String> favouriteShows)
+User : + String getUsername()
+User : + String getPassword()
+User : + ArrayList<String> getShowsSeen()
+User : + ArrayList<String> getFavouriteShows()
+User : + void setUsername(String username)
+User : + void setPassword(String password)
+User : + void setShowsSeen(ArrayList<String> showsSeen)
+User : + void setFavouriteShows(ArrayList<String> favouriteShows)
+User : + String toString()
 
 
 IMedia : + void play()
