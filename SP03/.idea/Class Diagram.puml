@@ -56,6 +56,7 @@ FileIO : + Scanner scanner
 FileIO : + ArrayList<String> readData()
 FileIO : + ArrayList<String> writeData()
 
+
 User : + Arraylist<String> showsSeen
 User : + Arraylist<String> favouriteShows
 User : - String username
