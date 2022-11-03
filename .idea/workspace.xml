@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ea8bbf4-5479-4159-86df-711b8c338e2f" name="Changes" comment="" />
+    <list default="true" id="3ea8bbf4-5479-4159-86df-711b8c338e2f" name="Changes" comment="Updated play() method for media. Updated UML">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/.idea/Class Diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/.idea/Class Diagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/TextUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/TextUI.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +15,11 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -29,7 +38,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Oscar/Documents/GitHub/SP3---Streaming-Service/SP03"
+    "last_opened_file_path": "C:/Users/Oscar/Documents/GitHub/SP3---Streaming-Service/SP03",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -41,6 +53,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667386854560</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated play() method for media. Updated UML">
+      <created>1667473935335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667473935335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -53,5 +73,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <MESSAGE value="Updated play() method for media. Updated UML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated play() method for media. Updated UML" />
   </component>
 </project>
