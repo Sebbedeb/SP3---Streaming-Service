@@ -1,7 +1,7 @@
+import java.util.ArrayList;
+
 public class User
 {
-<<<<<<< Updated upstream
-=======
     // make an arraylist the show the seen movies
     private ArrayList<String> showsSeen = new ArrayList<>();
 
@@ -81,5 +81,4 @@ public class User
     {
         return "Username: " + username + ", Password: " + password + ", Shows seen: " + showsSeen + ", Favourite shows: " + favouriteShows;
     }
->>>>>>> Stashed changes
 }

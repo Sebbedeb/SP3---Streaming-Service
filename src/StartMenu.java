@@ -9,12 +9,12 @@ public class StartMenu
     public void setup()
     {
         //TextUI.welcome();
-        loginScreen();
+        //loginScreen();
     }
 
-    public void loginScreen()
+    /*public void loginScreen()
     {
-        TextUI.loginOrSignUp();
+        //TextUI.loginOrSignUp();
         String input = fileIO.readUserData().toString();
         if(input.equals(1) || input.equals("login"))
         {
@@ -28,7 +28,7 @@ public class StartMenu
         {
             ExceptionCatcher.wrongInput();
         }
-    }
+    }*/
 
     static ArrayList<String> getRegisteredUsers()
     {

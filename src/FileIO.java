@@ -1,10 +1,12 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class FileIO
 {
-<<<<<<< Updated upstream
-}
-=======
-
-
     public ArrayList<String> readMovieData()
     {
         File file = new File("Data/movieList.txt");
@@ -84,4 +86,3 @@ public class FileIO
             }
     }
 }
->>>>>>> Stashed changes
