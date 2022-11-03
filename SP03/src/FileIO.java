@@ -18,7 +18,7 @@ public class FileIO
 
             while (input.hasNextLine())
             {
-                data.add(input.nextLine());
+                data.add(input.nextLine() + "\n");
             }
         }
         catch (FileNotFoundException e)
@@ -37,7 +37,7 @@ public class FileIO
 
             while (input.hasNextLine())
             {
-                data.add(input.nextLine());
+                data.add(input.nextLine() + "\n");
             }
         }
         catch (FileNotFoundException e)
@@ -58,7 +58,7 @@ public class FileIO
 
             while (input.hasNextLine())
             {
-                data.add(input.nextLine());
+                data.add(input.nextLine() + "\n");
             }
         }
         catch (FileNotFoundException e)
