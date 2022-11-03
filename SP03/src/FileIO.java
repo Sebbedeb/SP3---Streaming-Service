@@ -11,7 +11,7 @@ public class FileIO
 
     public ArrayList<String> readMovieData()
     {
-        File file = new File("Documents/intelli/SP3---Streaming-Service/SP03/Data/movieList.txt.csv");
+        File file = new File("Data/movieList.txt");
         ArrayList<String> data = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
@@ -30,7 +30,7 @@ public class FileIO
 
     public ArrayList<String> readSeriesData()
     {
-        File file = new File("Documents/intelli/SP3---Streaming-Service/SP03/Data/seriesList.txt.csv");
+        File file = new File("Data/seriesList");
         ArrayList<String> data = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
