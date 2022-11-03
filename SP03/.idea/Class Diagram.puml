@@ -17,21 +17,21 @@ class MainMenu
 class Streaming
 class Setup
 
-Main *-- Streaming
-Streaming *-- Setup
-Streaming *-- MainMenu
-MainMenu *-- Startmenu
-MainMenu *--TextUI
-MainMenu *-- ExceptionHandler
-MainMenu *-- FileIO
-MainMenu *-- User
-MainMenu *-- IMedia
-MainMenu *-- SearchFunction
-User *-- FileIO
-SearchFunction *-- TextUI
-Startmenu *-- TextUI
-ExceptionHandler *-- TextUI
-Setup *-- FileIO
+Main *--- Streaming
+Startmenu *--- Setup
+Streaming *--- MainMenu
+MainMenu *--- Startmenu
+MainMenu *---TextUI
+MainMenu *--- ExceptionHandler
+MainMenu *--- FileIO
+MainMenu *--- User
+MainMenu *--- IMedia
+MainMenu *--- SearchFunction
+User *--- FileIO
+SearchFunction *--- TextUI
+Startmenu *--- TextUI
+ExceptionHandler *--- TextUI
+Setup *--- FileIO
 
 Main : +psvm()
 Main : +Streaming streaming
