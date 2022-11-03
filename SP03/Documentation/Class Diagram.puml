@@ -53,8 +53,10 @@ Startmenu : + User signUp()
 Startmenu : + void getRegisteredUsers()
 
 FileIO : + Scanner scanner
-FileIO : + ArrayList<String> readData()
-FileIO : + ArrayList<String> writeData()
+FileIO : + ArrayList<String> readUserData()
+FileIO : + ArrayList<String> writeUserData()
+FileIO : + ArrayList<String> readSeriesData()
+FileIO : + ArrayList<String> readMovieData()
 
 
 User : + Arraylist<String> showsSeen
