@@ -1,5 +1,6 @@
 @startuml
 'https://plantuml.com/class-diagram
+!pragma layout smetana
 
 class Main
 class MainMenu
@@ -7,31 +8,40 @@ class Startmenu
 class TextUI
 class User
 class FileIO
-class ExceptionCatcher
+class ExceptionHandler
 abstract class Media implements IMedia
 class Movie extends Media
 class Series extends Media
 class SearchFunction
 class MainMenu
 class Streaming
+class Setup
 
 Main *-- Streaming
+Streaming *-- Setup
 Streaming *-- MainMenu
 MainMenu *-- Startmenu
 MainMenu *--TextUI
-MainMenu *-- ExceptionCatcher
+MainMenu *-- ExceptionHandler
 MainMenu *-- FileIO
 MainMenu *-- User
 MainMenu *-- IMedia
 MainMenu *-- SearchFunction
 User *-- FileIO
+SearchFunction *-- TextUI
+Startmenu *-- TextUI
 
 Main : +psvm()
 Main : +Streaming streaming
-
 MainMenu : + User currentUser
+MainMenu : + setup()
+MainMenu : + selection()
 Streaming : + void runStreaming()
 
+Setup : + //generate user
+Setup : + //run login screen
+
+SearchFunction : +//search()
 
 Startmenu : + User currentUser
 Startmenu : + boolean welcome()
@@ -49,6 +59,7 @@ User : + HashMap putInLoginfo()
 IMedia : + String toString()
 IMedia : + void play()
 IMedia : + String toString()
+TextUI : + //print
 
 
 Media : -String name
