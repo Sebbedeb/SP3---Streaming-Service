@@ -8,11 +8,11 @@ class Startmenu
 class TextUI
 class User
 class FileIO
-class ExceptionHandler
+class ExceptionHandler << (S,#FF7700) >>
 abstract class Media implements IMedia
 class Movie extends Media
 class Series extends Media
-class SearchFunction
+class SearchFunction << (S,#FF7700) >>
 class MainMenu
 class Streaming
 class Setup
@@ -67,8 +67,11 @@ User : + HashMap putInLoginfo()
 IMedia : + void play()
 IMedia : + String toString()
 
-TextUI : + Scanner scanner
-TextUI : + //print
+TextUI : + Scanner scan
+TextUI : + displayMessage(String msg);
+TextUI : + getUserInput();
+TextUI : + getUserInput(String msg);
+TextUI : + getUserInput(String msg, Arraylist<String> options);
 
 ExceptionHandler : + diverse fejl lol
 

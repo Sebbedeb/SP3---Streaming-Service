@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ea8bbf4-5479-4159-86df-711b8c338e2f" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3ea8bbf4-5479-4159-86df-711b8c338e2f" name="Changes" comment="Updated play() method for media. Updated UML">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SP03/.idea/Class Diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/.idea/Class Diagram.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SP03/src/IMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/IMedia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SP03/src/Media.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/Media.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SP03/src/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SP03/src/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/TextUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/TextUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +53,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667386854560</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated play() method for media. Updated UML">
+      <created>1667473935335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667473935335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +76,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Updated play() method for media. Updated UML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated play() method for media. Updated UML" />
   </component>
 </project>
