@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ea8bbf4-5479-4159-86df-711b8c338e2f" name="Changes" comment="Created TextUI. Updated UML">
-      <change beforePath="$PROJECT_DIR$/SP03/src/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/ExceptionCatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/FileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/IMedia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/Media.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/SearchFunction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/Series.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/Setup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/StartMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/Streaming.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/TextUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
