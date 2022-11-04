@@ -13,6 +13,6 @@ public class Setup {
         username = input;
         password = input;
         User newUser = new User(username, password, showsSeen, favouriteShows);
-        IDandPassword.addUser(newUser);
+        
     }
 }

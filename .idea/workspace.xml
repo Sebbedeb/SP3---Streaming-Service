@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ea8bbf4-5479-4159-86df-711b8c338e2f" name="Changes" comment="Created TextUI. Updated UML">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SP03/src/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/Setup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SP03/src/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/StartMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
