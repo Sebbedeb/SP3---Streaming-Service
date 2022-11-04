@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Main
 {
     public static final FedFlix fedFlix = new FedFlix();
