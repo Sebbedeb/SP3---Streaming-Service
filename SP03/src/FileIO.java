@@ -10,7 +10,7 @@ public class FileIO
 
     public ArrayList<String> readMovieData()
     {
-        File file = new File("SP03/Data/userData.txt");
+        File file = new File("SP03/Data/movieList.txt");
         ArrayList<String> data = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
@@ -29,7 +29,7 @@ public class FileIO
 
     public ArrayList<String> readSeriesData()
     {
-        File file = new File("SP03/Data/userData.txt");
+        File file = new File("SP03/Data/seriesList.txt");
         ArrayList<String> data = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);

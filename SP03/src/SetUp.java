@@ -1,6 +1,15 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class SetUp
 {
+
+    FileIO fileIO = new FileIO();
+
+    Scanner scan = new Scanner(System.in);
     TextUI textUI = new TextUI();
+
+
 
     protected void runSetUp()
     {
@@ -13,7 +22,7 @@ public class SetUp
         }
         else
         {
-            //login();
+            //login()
         }
 
 
@@ -21,7 +30,6 @@ public class SetUp
 
     private User register()
     {
-        FileIO fileIO = new FileIO();
         textUI.displayMessage("Register new user:");
         String name = textUI.getUserInput("Username: ");
         String pass = textUI.getUserInput("Password: ");
