@@ -7,11 +7,8 @@
     <list default="true" id="3ea8bbf4-5479-4159-86df-711b8c338e2f" name="Changes" comment="Created TextUI. Updated UML">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SP03/Data/userData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/Data/userData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SP03/src/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/FileIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SP03/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SP03/src/SetUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/SetUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SP3---Streaming-Service/FileIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SP3---Streaming-Service/FileIO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SP3---Streaming-Service/Setup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SP3---Streaming-Service/Setup.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -38,5 +38,13 @@ public class SetUp
         return user;
     }
 
+    protected User login()
+    {
+
+
+
+        return null;
+    }
+
 
 }
