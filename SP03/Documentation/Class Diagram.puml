@@ -17,11 +17,11 @@ class MainMenu
 class FedFlix
 class Setup
 
-Main *--- FedFlix
-FedFlix *--- Setup
-Setup *--- User
-Setup *--- FileIO
-Setup *--- TextUI
+Main *-- FedFlix
+FedFlix *-- Setup
+Setup *-- User
+Setup *-- FileIO
+Setup *-- TextUI
 
 Main : + static final FedFlix fedFlix = new FedFlix()
 Main : + static void main(String[] args)
