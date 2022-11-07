@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SetUp
@@ -22,7 +21,7 @@ public class SetUp
         }
         else
         {
-            //login()
+            login();
         }
 
 
@@ -40,6 +39,24 @@ public class SetUp
 
     protected User login()
     {
+        textUI.displayMessage("Please write your username: ");
+        String usernameInput = scan.nextLine();
+        for(String i : fileIO.readUserData())
+        {
+            if(usernameInput == i)
+            {
+                textUI.displayMessage("You want to log in to the user " + i);
+                // retrun user with the name i ...
+
+            }
+            else
+            {
+                textUI.displayMessage("USER NOT FOUND !!!!!! ");
+                System.out.println(fileIO.readUserData());
+                break;
+            }
+        }
+
 
 
 
