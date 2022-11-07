@@ -52,7 +52,6 @@ public class SetUp
             else
             {
                 textUI.displayMessage("USER NOT FOUND !!!!!! ");
-                System.out.println(fileIO.readUserData());
                 break;
             }
         }
