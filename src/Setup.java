@@ -53,9 +53,8 @@ public class Setup
     {
         ArrayList<String> userData = fileIO.readUserData();
         ArrayList<User> users = new ArrayList<>();
-        for( int i = 0; i<userData.size(); i++)
-        {
-            String[] s = userData.get(i).split(","+"\n");
+        for (int i = 0; i < userData.size(); i++) {
+            String[] s = userData.get(i).split(",");
             User user = new User(s[0], s[1]);
             users.add(user);
         }
