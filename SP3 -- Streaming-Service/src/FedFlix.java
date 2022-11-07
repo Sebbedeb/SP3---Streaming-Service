@@ -1,6 +1,6 @@
 public class FedFlix
 {
-    SetUp setUp = new SetUp();
+    Setup setUp = new Setup();
     public void runFedFlix()
     {
         setUp();
@@ -10,7 +10,7 @@ public class FedFlix
 
     private User setUp()
     {
-        SetUp setUp = new SetUp();
+        Setup setUp = new Setup();
         setUp.runSetUp();
         User user = new User("temp", "temp");
         return user;

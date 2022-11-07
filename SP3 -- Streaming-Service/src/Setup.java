@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class SetUp
+public class Setup
 {
     static ArrayList<String> userNames;
     static ArrayList<String> passWords;
