@@ -2,21 +2,22 @@ public class SetUp
 {
     TextUI textUI = new TextUI();
 
-    protected void runSetUp()
+    protected User runSetUp()
     {
         textUI.displayMessage("Welcome to fedFlix! Press 1 to register new user, or press 2 for login");
         String choice = textUI.getUserInput();
+        User user = null;
 
         if(choice.equals("1"))
         {
-            register();
+           user = register();
         }
         else
         {
-            //login();
+            //user = login();
         }
 
-
+        return user;
     }
 
     private User register()
