@@ -74,12 +74,10 @@ public class User
     }
 
 
-
     // toString
     @Override
     public String toString()
     {
         return "Username: " + username + ", Password: " + password + ", Shows seen: " + showsSeen + ", Favourite shows: " + favouriteShows;
     }
-
 }

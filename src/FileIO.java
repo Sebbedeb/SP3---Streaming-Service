@@ -7,16 +7,17 @@ import java.util.Scanner;
 
 public class FileIO
 {
+
     public ArrayList<String> readMovieData()
     {
-        File file = new File("Data/movieList.txt");
+        File file = new File("SP03/Data/movieList.txt");
         ArrayList<String> data = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
 
             while (input.hasNextLine())
             {
-                data.add(input.nextLine());
+                data.add(input.nextLine() + "\n");
             }
         }
         catch (FileNotFoundException e)
@@ -28,14 +29,14 @@ public class FileIO
 
     public ArrayList<String> readSeriesData()
     {
-        File file = new File("Data/seriesList.txt");
+        File file = new File("SP03/Data/seriesList.txt");
         ArrayList<String> data = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
 
             while (input.hasNextLine())
             {
-                data.add(input.nextLine());
+                data.add(input.nextLine() + "\n");
             }
         }
         catch (FileNotFoundException e)
@@ -49,14 +50,14 @@ public class FileIO
 
     public ArrayList<String> readUserData()
     {
-        File file = new File("Data/userData.txt");
+        File file = new File("SP03/Data/userData.csv");
         ArrayList<String> data = new ArrayList<>();
         try {
             Scanner input = new Scanner(file);
 
             while (input.hasNextLine())
             {
-                data.add(input.nextLine());
+                data.add(input.nextLine() + "\n");
             }
         }
         catch (FileNotFoundException e)
@@ -66,23 +67,22 @@ public class FileIO
         return data;
     }
 
-    public static void writeUserData()
+    public void writeUserData(User user)
     {
-            try
-            {
-                Scanner input = new Scanner(System.in);
-                FileWriter writer = new FileWriter("Data/userData.txt", true);
-                System.out.println("Please write your name:");
-                writer.write(input.nextLine() + ", ");
-                System.out.println("Please write your new password");
-                writer.write(input.nextLine() + ", \n");
-                System.out.println("Thank you.");
-                writer.close();
+        try
+        {
+            Scanner input = new Scanner(System.in);
+            FileWriter writer = new FileWriter("SP03/Data/userData.csv", true);
 
-            }
-            catch (IOException e)
-            {
-                System.out.println(e + "You fucked up mate");
-            }
+            writer.write(user.getUsername() + ", ");
+            writer.write(user.getPassword() + ", \n");
+
+            writer.close();
+
+        }
+        catch (IOException e)
+        {
+            System.out.println(e + "You fucked up mate");
+        }
     }
 }
