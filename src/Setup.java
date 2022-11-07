@@ -31,7 +31,7 @@ public class Setup
         String pass;
         name = textUI.getUserInput("Please enter your Username");
         pass = textUI.getUserInput("Please enter your Password");
-        ArrayList<User> users = createUsers(userNames, passWords);
+        ArrayList<User> users = createUsers();
         for (User i : users)
         {
             if(name == i.getUsername() && pass == i.getPassword())
@@ -49,9 +49,22 @@ public class Setup
         return null;
     }
 
-    private ArrayList<User> createUsers(ArrayList<String> userNames, ArrayList<String> passWords)
+    private ArrayList<User> createUsers()
     {
+        ArrayList<String> userData = fileIO.readUserData();
         ArrayList<User> users = new ArrayList<>();
+        for( int i = 0; i<userData.size(); i++)
+        {
+            String[] s = userData.get(i).split(","+"\n");
+            User user = new User(s[0], s[1]);
+            users.add(user);
+        }
+        return users;
+    }
+
+
+
+        /*ArrayList<User> users = new ArrayList<>();
         for (int i=0; i<userNames.size()-1; i++)
         {
             String name;
@@ -61,17 +74,16 @@ public class Setup
             User user = new User(name, pass);
             users.add(user);
         }
-        return users;
-    }
+        return users;*/
     private User register()
     {
         textUI.displayMessage("Register new user:");
         String name = textUI.getUserInput("Username: ");
-        userNames.add(name);
+       // userNames.add(name);
         String pass = textUI.getUserInput("Password: ");
-        passWords.add(pass);
-        User user = new User(name, pass);
-        fileIO.writeUserData(user);
+      //  passWords.add(pass);
+       User user = new User(name, pass);
+       fileIO.writeUserData(user);
         return user;
     }
 
