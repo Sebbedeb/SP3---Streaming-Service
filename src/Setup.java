@@ -36,6 +36,7 @@ public class Setup
         {
             if(name == i.getUsername() && pass == i.getPassword())
             {
+                textUI.displayMessage("Login successful");
                 return i;
             }
             else
@@ -45,7 +46,6 @@ public class Setup
             }
 
         }
-        //Irrelevant, fiks det evt. med en "hvis du vil quitte, gør så og så."
         return null;
     }
 
@@ -60,30 +60,25 @@ public class Setup
         }
         return users;
     }
-
-
-
-        /*ArrayList<User> users = new ArrayList<>();
-        for (int i=0; i<userNames.size()-1; i++)
-        {
-            String name;
-            String pass;
-            name = userNames.get(i);
-            pass = passWords.get(i);
-            User user = new User(name, pass);
-            users.add(user);
-        }
-        return users;*/
     private User register()
     {
         textUI.displayMessage("Register new user:");
         String name = textUI.getUserInput("Username: ");
        // userNames.add(name);
         String pass = textUI.getUserInput("Password: ");
-      //  passWords.add(pass);
-       User user = new User(name, pass);
-       fileIO.writeUserData(user);
-        return user;
+        if(!name.contains(",") && !pass.contains(","))
+        {
+            User user = new User(name, pass);
+            fileIO.writeUserData(user);
+            return user;
+
+        }
+        else
+        {
+            textUI.displayMessage("Please only use letters and numbers");
+            register();
+        }
+        return null;
     }
 
 
