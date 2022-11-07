@@ -81,4 +81,5 @@ public class User
     {
         return "Username: " + username + ", Password: " + password + ", Shows seen: " + showsSeen + ", Favourite shows: " + favouriteShows;
     }
+
 }
