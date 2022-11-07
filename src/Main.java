@@ -1,7 +1,8 @@
 public class Main
 {
+    public static final FedFlix fedFlix = new FedFlix();
     public static void main(String[] args)
     {
-        System.out.println("Hello world!");
+        fedFlix.runFedFlix();
     }
 }
