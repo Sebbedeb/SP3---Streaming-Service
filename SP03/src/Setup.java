@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 
 public class Setup
 {
@@ -21,6 +24,7 @@ public class Setup
         else
         {
             login();
+<<<<<<< Updated upstream
         }
 
         User user = new User("temp","temp");
@@ -47,11 +51,19 @@ public class Setup {
 
         User user = new User("temp", "temp");
 >>>>>>> Stashed changes
+=======
+        }
+
+        User user = new User("temp","temp");
+>>>>>>> Stashed changes
         return user;
     }
 
     protected User login() {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
         String name;
         String pass;
         name = textUI.getUserInput("Please enter your Username");
@@ -89,7 +101,11 @@ public class Setup {
     {
         textUI.displayMessage("Register new user:");
         String name = textUI.getUserInput("Username: ");
+<<<<<<< Updated upstream
        // userNames.add(name);
+=======
+        // userNames.add(name);
+>>>>>>> Stashed changes
         String pass = textUI.getUserInput("Password: ");
         if(!name.contains(",") && !pass.contains(","))
         {
@@ -103,6 +119,7 @@ public class Setup {
             textUI.displayMessage("Please only use letters and numbers");
             register();
         }
+<<<<<<< Updated upstream
 =======
         String name = this.textUI.getUserInput("Please enter your Username");
         String pass = this.textUI.getUserInput("Please enter your Password");
@@ -120,12 +137,15 @@ public class Setup {
         }
 
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         return null;
     }
 
     private ArrayList<User> createUsers(ArrayList<String> userNames, ArrayList<String> passWords) {
         ArrayList<User> users = new ArrayList();
 
+<<<<<<< Updated upstream
         for(int i = 0; i < userNames.size() - 1; ++i) {
             String name = (String)userNames.get(i);
             String pass = (String)passWords.get(i);
@@ -152,3 +172,8 @@ public class Setup {
     }
 >>>>>>> Stashed changes
 }
+=======
+
+
+}
+>>>>>>> Stashed changes
