@@ -43,7 +43,7 @@ public class SetUp
         String usernameInput = scan.nextLine();
         for(String i : fileIO.readUserData())
         {
-            if(usernameInput == i)
+            if(usernameInput.equals(i)) 
             {
                 textUI.displayMessage("You want to log in to the user " + i);
                 // retrun user with the name i ...
