@@ -1,21 +1,22 @@
 public class FedFlix
 {
-    User user;
+    User user = null;
     public void runFedFlix()
     {
-        user = setUp();
+        setUp();
         mainMenu(/* user */);
     }
 
     private User setUp()
     {
         SetUp setUp = new SetUp();
-        setUp.runSetUp();
+        User currentUser = setUp.runSetUp();
+        return currentUser;
     }
 
     private void mainMenu() // takes a user in the constructor
     {
-        // MainMenu mainMenu = new MainMenu(user);
-        // mainMenu.runMainMenu();
+        MainMenu mainMenu = new MainMenu(user);
+        mainMenu.runMainMenu();
     }
 }
