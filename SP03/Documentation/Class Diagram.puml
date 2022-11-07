@@ -53,11 +53,11 @@ Startmenu : + User login()
 Startmenu : + User signUp()
 Startmenu : + void getRegisteredUsers()
 
-FileIO : + Scanner scanner
-FileIO : + ArrayList<String> readUserData()
-FileIO : + ArrayList<String> writeUserData()
-FileIO : + ArrayList<String> readSeriesData()
 FileIO : + ArrayList<String> readMovieData()
+FileIO : + ArrayList<String> readSeriesData()
+FileIO : + ArrayList<String> readUserData()
+FileIO : + void writeUserData(User user)
+
 
 
 User : - Arraylist<String> showsSeen
@@ -80,11 +80,11 @@ User : + String toString()
 IMedia : + void play()
 IMedia : + String toString()
 
-TextUI : + Scanner scan
-TextUI : + displayMessage(String msg);
-TextUI : + getUserInput();
-TextUI : + getUserInput(String msg);
-TextUI : + getUserInput(String msg, Arraylist<String> options);
+TextUI : + Scanner scan = new Scanner(System.in)
+TextUI : + void displayMessage(String msg)
+TextUI : + String getUserInput()
+TextUI : + String getUserInput(String msg)
+TextUI : + int getUserInput(String msg, ArrayList<String> options)
 
 ExceptionHandler : + diverse fejl lol
 
