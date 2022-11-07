@@ -5,7 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f781e4a8-ea9a-42ff-89ca-ef1d66f86ec6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SP03/src/FedFlix.java" beforeDir="false" afterPath="$PROJECT_DIR$/SP03/src/FedFlix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/FedFlix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/FileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/IMedia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/MainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/Media.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/Series.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/Setup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/TextUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service2/FedFlix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service2/FileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service2/Setup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service2/TextUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3 -- Streaming-Service2/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3---Streaming-Service/FedFlix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3---Streaming-Service/FileIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SP3---Streaming-Service/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FedFlix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IMedia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Media.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Series.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Setup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TextUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +67,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="Setup" />
-                    <option name="lastUsedInstant" value="1667825765" />
+                    <option name="lastUsedInstant" value="1667826278" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -78,6 +110,19 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SP3 -- Streaming-Service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SP3 -- Streaming-Service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SP3 -- Streaming-Service" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
