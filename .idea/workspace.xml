@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f781e4a8-ea9a-42ff-89ca-ef1d66f86ec6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/FedFlix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FedFlix.java" afterDir="false" />
-    </list>
+    <list default="true" id="f781e4a8-ea9a-42ff-89ca-ef1d66f86ec6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +71,16 @@
       <updated>1667817346565</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
