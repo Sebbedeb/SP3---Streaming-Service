@@ -5,7 +5,6 @@ public class FedFlix
     {
         setUp();
         //mainMenu(setUp.login());
-
     }
 
     private User setUp()
