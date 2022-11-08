@@ -4,27 +4,24 @@
 
 class Main
 class MainMenu
+class Startmenu
 class TextUI
 class User
 class FileIO
-/'class ExceptionHandler << (S,#FF7700) >>'/
+class ExceptionHandler << (S,#FF7700) >>
 abstract class Media implements IMedia
 class Movie extends Media
 class Series extends Media
-/'class SearchFunction << (S,#FF7700) >>'/
+class SearchFunction << (S,#FF7700) >>
 class MainMenu
 class FedFlix
 class Setup
 
 Main *-- FedFlix
 FedFlix *-- Setup
-
 Setup *-- User
 Setup *-- FileIO
 Setup *-- TextUI
-
-FedFlix *-- MainMenu
-MainMenu *--IMedia
 
 Main : + static final FedFlix fedFlix = new FedFlix()
 Main : + static void main(String[] args)
@@ -32,8 +29,7 @@ Main : + fedFlix.runFedFlix()
 
 FedFlix : + void runFedFlix()
 FedFlix : - void Setup()
-FedFlix : - void mainMenu()
-
+FedFlix : - void runMainMenu()
 
 Setup : + TextUI textUI = new TextUI()
 Setup : + void runSetUp()
@@ -42,13 +38,20 @@ Setup : + User login()
 
 
 MainMenu : + User currentUser
-MainMenu : + ArrayList<IMedia> media = new ArrayList<>()
-MainMenu : + MainMenu(User currentUser)
-MainMenu : + void runMainMenu()
-MainMenu : + void createMedia()
+MainMenu : + setup()
+MainMenu : + selection()
 
 
+Setup : + //generate user
+Setup : + //run login screen
 
+SearchFunction : +//search()
+
+Startmenu : + User currentUser
+Startmenu : + boolean welcome()
+Startmenu : + User login()
+Startmenu : + User signUp()
+Startmenu : + void getRegisteredUsers()
 
 FileIO : + ArrayList<String> readMovieData()
 FileIO : + ArrayList<String> readSeriesData()
@@ -83,6 +86,7 @@ TextUI : + String getUserInput()
 TextUI : + String getUserInput(String msg)
 TextUI : + int getUserInput(String msg, ArrayList<String> options)
 
+ExceptionHandler : + diverse fejl lol
 
 Media : -String name
 Media : -int year
